@@ -1,0 +1,92 @@
+@charset "UTF-8";
+body {
+  background-color: #e4e4e4;
+  margin: 0%; }
+
+/* BARRA DE NAVEGACIÓN */
+.nav1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1d1d1d; }
+  .nav1 ul li {
+    float: left;
+    font-family: "Bebas Neue";
+    font-size: 1.4em;
+    letter-spacing: 2px; }
+  .nav1 ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none; }
+  .nav1 ul li:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0%;
+    margin: 0%;
+    font-size: 1.6em;
+    transition: 1s; }
+
+/*  DROPDOWN - SUBMENÚ DE SERVICIOS */
+.dropdow-btn {
+  color: white;
+  font-size: 1em;
+  border: none; }
+
+.dropdown {
+  position: relative; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 100px;
+  box-shadow: 2px, 4px, 4px, rgba(0, 0, 0, 0.3); }
+  .dropdown-content a {
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.8em; }
+  .dropdown-content a:hover {
+    background-color: #818c9257; }
+
+.dropdown:hover .dropdow-btn {
+  background-color: #266ca9;
+  transition: 1s; }
+
+.dropdow:hover .dropdown-content {
+  display: block;
+  margin-top: 80px; }
+
+/* TITULO Y IMAGEN DE APERTURA */
+.main__div {
+  margin-top: 130px; }
+  .main__div__title {
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 0%;
+    margin-bottom: 10px;
+    text-align: center; }
+  .main__div__subtitle {
+    font-family: "Lato Black";
+    font-size: 2.1em;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #ff46a2;
+    text-shadow: 2px 2px 1px #68bbff;
+    margin-bottom: 2rem; }
+  .main__div__img {
+    background: url(/images/image1.jpg) center fixed;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    margin-top: 0; }
+
+/*SOLUCIONES DIGITALES*/
