@@ -118,8 +118,439 @@ body {
     }
 }
 
-
-
 /*SOLUCIONES DIGITALES*/
 
+.slogan__ctn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: space-evenly;
+    margin-top: 3rem;
 
+    &__ctn__title {
+        font-family: "Bebas Neue";
+        font-size: 2.5em;  
+    }
+
+    &__ctn__p {
+        font-family: "Lato Black";
+        font-size: 1.5em;
+        font-style:normal;
+        color: rgb(93, 93, 93);
+        margin-bottom: 3rem;
+
+        & .textCian {
+            color: rgb(77, 143, 197);
+            font-family: "Lato Black";
+        }
+
+        & .textMagent {
+            color: rgb(228, 96, 96);
+            font-family: "Lato Black";
+        }
+    }
+
+}
+
+/* SECCION DE DESCRIPCIÓN*/
+
+.service__ctn {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+
+    &__title {
+        font-family: "Bebas Neue";
+        font-size: 2.3em;
+        text-decoration: overline;
+        text-decoration-color: rgb(107, 107, 107);
+        color: rgb(0, 0, 0);
+    }
+
+    &__p {
+        font-family: "Lato Black";
+        font-size: 1.2em;
+        font-style: normal;
+        color: rgb(93, 93, 93);
+        margin-bottom: 70px;
+    }
+}
+
+/* SECCION DE 1° SERVICIO: SITIOS WEB */
+
+.web__article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    &__text {
+        display: flex;
+        flex-flow: column wrap;
+        align-self: center;
+
+        &__h {
+            font-family: "Bebas Neue";
+            font-size: 1.6em;
+            color: rgb(71, 71, 71);
+            text-align: center;
+            margin: 0;
+        }
+
+        &__p {
+            font-family: "Lato Black";
+            font-size: 1.4em;
+            color: rgb(144, 144, 144);
+            text-align: center;
+        }
+
+    &__img img {
+        height: 450px;
+        width: 675px;
+        justify-self: center;
+        align-self: center;
+    }
+    }
+}
+
+/* SECCION DE 2° SERVICIO: DISEÑO UX/UI */
+
+.design__article {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+    &__text {
+        display: flex;
+        flex-flow: column wrap;
+        align-self: center;
+
+        &__h {
+            font-family: "Bebas Neue";
+            font-size: 1.6em;
+            color: rgb(71, 71, 71);
+            text-align: center;
+            margin: 0;
+        }
+
+        &__p {
+            font-family: "Lato Black";
+            font-size: 1.4em;
+            color: rgb(144, 144, 144);
+            text-align: center; 
+        }
+    }
+
+    &__img img {
+        height: 450px;
+        width: 675px;
+        justify-self: center;
+        align-self: center;
+    }
+}
+
+/* SECCION DE 3° SERVICIO: MARKETING DIGITAL */
+
+.mkt__article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+    &__text {
+        display: flex;
+        flex-flow: column wrap;
+        align-self: center;
+
+        &__h {
+            font-family: "Bebas Neue";
+            font-size: 1.6em;
+            color: rgb(71, 71, 71);
+            text-align: center;
+            margin: 0;
+        }
+
+        &__p {
+            font-family: "Bebas Neue";
+            font-size: 1.6em;
+            color: rgb(71, 71, 71);
+            text-align: center;
+            margin: 0;
+        }
+    }
+
+    &__img img {
+        height: 450px;
+        width: 675px;
+        justify-self: center;
+        align-self: center; 
+    }
+}
+
+/* SECCIÓN DE SONRYENTES - EXPERIENCIAS DE CLIENTES */
+
+.customers__section {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+
+    &__title {
+        font-family: "Bebas Neue";
+        font-size: 2.3em;
+        text-decoration: overline;
+        text-decoration-color: rgb(107, 107, 107);
+        color: rgb(0, 0, 0);
+    }
+
+    &__p {
+        font-family: "Lato Black";
+        font-size: 1.2em;
+        font-style: normal;
+        color: rgb(93, 93, 93);
+        margin-bottom: 70px;
+    }
+}
+
+/*CLIENTE: IVAN*/
+
+.customers__div {
+    display: grid;
+    justify-items: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30rem;
+    grid-gap: 30px;
+}
+
+.ivan__div {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 30px 300px 1fr;
+
+    &__h {
+        font-family: "Bebas Neue";
+        font-size: 1.6em;
+        color: rgb(71, 71, 71);
+        text-align: center;
+        align-self: center;
+        margin: 0;
+        padding: 0%;
+    }
+
+    &__p {
+        font-family: "Lato Black";
+        font-size: 1em;
+        color: rgb(144, 144, 144);
+        text-align: center;
+    }
+    
+    &__img {
+        height: 300px;
+        align-self: center;
+    }
+}
+
+/* CLIENTE: SOFIA*/
+
+.sofia__div {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 30px 300px 1fr;
+
+    &__h {
+        font-family: "Bebas Neue";
+        font-size: 1.6em;
+        color: rgb(71, 71, 71);
+        text-align: center;
+        align-self: center;
+        margin: 0;
+    }
+
+    &__p {
+        font-family: "Lato Black";
+        font-size: 1em;
+        color: rgb(144, 144, 144);
+        text-align: center;
+    }
+
+    &__img {
+        height: 300px;
+        align-self: center;
+    }
+}
+
+/* CLIENTE: BIANCA */
+
+.bianca__div {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 30px 300px 1fr;
+
+    &__h {
+        font-family: "Bebas Neue";
+        font-size: 1.6em;
+        color: rgb(71, 71, 71);
+        text-align: center;
+        align-self: center;
+        margin: 0;
+    }
+
+    &__p {
+        font-family: "Lato Black";
+        font-size: 1em;
+        color: rgb(144, 144, 144);
+        text-align: center;
+    }
+
+    &__img {
+        height: 300px;
+        align-self: center;
+    }
+}
+
+
+/* 1° Título descriptivo STUDIO Page + Titulos */
+
+.Title {
+    font-family: "Bebas Neue";
+    font-size: 60px;
+    text-align: center;
+    color: rgb(55, 148, 224);
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
+}
+
+.Names {
+    font-family: "Lato Black";
+    font-size: 65px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.Name2 {
+    font-family: "Lato Black";
+    font-size: 50px;
+    text-align: center;
+    color: rgb(156, 156, 156);
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* TABLAS de E-SHOP page */
+
+#tabTshirt {
+    background-color: rgb(192, 192, 192);
+    box-shadow: 0px 2px 2px;
+    text-align: center;
+    border: solid 2px rgba(0, 0, 0, 0.3);
+    border-inline: 1px solid;
+    display: inline-table;
+}
+
+#tabCanvas {
+    background-color: rgb(192, 192, 192);
+    box-shadow: 0px 2px 2px;
+    text-align: center;
+    border: solid 2px rgba(0, 0, 0, 0.3);
+    border-inline: 1px solid;
+    display: inline-table;
+}
+
+/* SERVICIOS PAGE */
+
+.container-service-page h2 {
+    font-family: "Bebas Neue";
+    font-size: 2.5em;
+}
+
+.container-service-page p {
+    font-family: "Lato Black";
+    font-size: 1.3em;
+    font-style:normal;
+    color: rgb(93, 93, 93);
+}
+
+.textCian {
+    color: rgb(77, 143, 197);
+    font-family: "Lato Black";
+}
+
+.textMagent {
+    color: rgb(228, 96, 96);
+    font-family: "Lato Black";
+}
+
+.first-cnt-sct h2 {
+    font-family: "Bebas Neue";
+    font-size: 2.1em;
+    color: rgb(71, 71, 71);
+}
+
+.first-cnt-sct p {
+    font-family: "Lato Black";
+    font-size: 1em;
+    color: rgb(144, 144, 144);
+}
+
+.ctn-text-link h2 {
+    font-family: "Bebas Neue";
+    font-size: 2.1em;
+    color: rgb(71, 71, 71);
+}
+
+.ctn-text-link p a {
+    font-family: "Lato Black";
+    text-decoration: none;
+    font-size: 2em;
+    color: #fa9f42;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3) ;
+}
+
+.ctn-text-link p a:hover {
+    font-size: 2.5em;
+    transition: 1s;
+    
+}
+
+/* MEDIA QUERIS */
+
+@media only screen and (max-width: 320px) {
+    .customers__div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+
+    }
+
+    .slogan__ctn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .service__ctn {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+
+        &__p {
+        text-align: center;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .customers__div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+
+    }
+}
