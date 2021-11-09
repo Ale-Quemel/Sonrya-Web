@@ -1,0 +1,31 @@
+/* MIXIN DE LA SECCIÓN 'SONRIENTES' DEL HOMEPAGE */
+
+@mixin div__customers {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 30px 300px 1fr;
+}
+
+@mixin h__customers {
+    font-family: "Bebas Neue";
+    font-size: 1.6em;
+    color: #474747;
+    text-align: center;
+    align-self: center;
+    margin: 0;
+    padding: 0%;
+}
+
+@mixin p__customers {
+    font-family: "Lato Black";
+    font-size: 1em;
+    color: #909090;
+    text-align: center;
+}
+
+
+@mixin img__customers {
+    height: 300px;
+    align-self: center;
+}
+

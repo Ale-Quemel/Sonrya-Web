@@ -1,3 +1,15 @@
+/* VARIABLES */
+
+@import 'variables';
+@import 'mixin-extend';
+@import 'maps';
+
+/*HOJAS DE ESTILO*/
+
+@import 'header';
+
+
+
 
 
 body {
@@ -20,14 +32,14 @@ body {
 
     & li {
         float: left;
-        font-family: "Bebas Neue";
+        font-family: $first-font;
         font-size: 1.4em;
         letter-spacing: 2px;
     }
 
     & li a {
         display: block;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     text-align: center;
     padding: 30px;
     text-decoration: none;
@@ -43,7 +55,7 @@ body {
 }
 
 /*  DROPDOWN - SUBMENÚ DE SERVICIOS */
-
+/*
 .dropdow-btn {
     color: rgb(255, 255, 255);
     font-size: 1em;
@@ -82,7 +94,7 @@ body {
 .dropdow:hover .dropdown-content {
     display: block;
     margin-top: 80px;
-}
+}*/
 
 /* TITULO Y IMAGEN DE APERTURA */
 
@@ -90,7 +102,7 @@ body {
     margin-top: 130px;
 
     &__title {
-        font-family: "Bebas Neue";
+        font-family: $first-font;
         font-size: 80px;
         letter-spacing: 3px;
         text-align: center;
@@ -100,12 +112,12 @@ body {
     }
 
     &__subtitle {
-        font-family: "Lato Black";
+        font-family: $second-font;
         font-size: 2.1em;
         text-align: center;
         letter-spacing: 2px;
-        color: rgb(255, 70, 162);
-        text-shadow: 2px 2px 1px rgb(104, 187, 255);
+        color: $magent-color;
+        text-shadow: 2px 2px 1px $cyan-color;
         margin-bottom: 2rem;  
     }
 
@@ -129,25 +141,25 @@ body {
     margin-top: 3rem;
 
     &__ctn__title {
-        font-family: "Bebas Neue";
+        font-family: $first-font;
         font-size: 2.5em;  
     }
 
     &__ctn__p {
-        font-family: "Lato Black";
+        font-family: $second-font;
         font-size: 1.5em;
         font-style:normal;
         color: rgb(93, 93, 93);
         margin-bottom: 3rem;
 
         & .textCian {
-            color: rgb(77, 143, 197);
-            font-family: "Lato Black";
+            color: $sky-color;
+            font-family: $second-font;
         }
 
         & .textMagent {
-            color: rgb(228, 96, 96);
-            font-family: "Lato Black";
+            color: $red-color;
+            font-family: $second-font;
         }
     }
 
@@ -163,18 +175,18 @@ body {
     align-content: center;
 
     &__title {
-        font-family: "Bebas Neue";
+        font-family: $first-font;
         font-size: 2.3em;
         text-decoration: overline;
-        text-decoration-color: rgb(107, 107, 107);
+        text-decoration-color: $gray-2-color;
         color: rgb(0, 0, 0);
     }
 
     &__p {
-        font-family: "Lato Black";
+        font-family: $second-font;
         font-size: 1.2em;
         font-style: normal;
-        color: rgb(93, 93, 93);
+        color: $gray-color;
         margin-bottom: 70px;
     }
 }
@@ -192,17 +204,17 @@ body {
         align-self: center;
 
         &__h {
-            font-family: "Bebas Neue";
+            font-family: $first-font;
             font-size: 1.6em;
-            color: rgb(71, 71, 71);
+            color: $gray-dark-color;
             text-align: center;
             margin: 0;
         }
 
         &__p {
-            font-family: "Lato Black";
+            font-family: $second-font;
             font-size: 1.4em;
-            color: rgb(144, 144, 144);
+            color: $gray-light-color;
             text-align: center;
         }
 
@@ -229,7 +241,7 @@ body {
         align-self: center;
 
         &__h {
-            font-family: "Bebas Neue";
+            font-family: $first-font;
             font-size: 1.6em;
             color: rgb(71, 71, 71);
             text-align: center;
@@ -237,7 +249,7 @@ body {
         }
 
         &__p {
-            font-family: "Lato Black";
+            font-family: $second-font;
             font-size: 1.4em;
             color: rgb(144, 144, 144);
             text-align: center; 
@@ -266,7 +278,7 @@ body {
         align-self: center;
 
         &__h {
-            font-family: "Bebas Neue";
+            font-family: $first-font;
             font-size: 1.6em;
             color: rgb(71, 71, 71);
             text-align: center;
@@ -274,7 +286,7 @@ body {
         }
 
         &__p {
-            font-family: "Bebas Neue";
+            font-family: $first-font;
             font-size: 1.6em;
             color: rgb(71, 71, 71);
             text-align: center;
@@ -298,7 +310,7 @@ body {
     margin-bottom: 50px;
 
     &__title {
-        font-family: "Bebas Neue";
+        font-family: $first-font;
         font-size: 2.3em;
         text-decoration: overline;
         text-decoration-color: rgb(107, 107, 107);
@@ -306,7 +318,7 @@ body {
     }
 
     &__p {
-        font-family: "Lato Black";
+        font-family: $second-font;
         font-size: 1.2em;
         font-style: normal;
         color: rgb(93, 93, 93);
@@ -325,88 +337,54 @@ body {
 }
 
 .ivan__div {
-    display: grid;
-    justify-items: center;
-    grid-template-rows: 30px 300px 1fr;
+     @include div__customers;
 
     &__h {
-        font-family: "Bebas Neue";
-        font-size: 1.6em;
-        color: rgb(71, 71, 71);
-        text-align: center;
-        align-self: center;
-        margin: 0;
-        padding: 0%;
+        @include h__customers;
     }
 
     &__p {
-        font-family: "Lato Black";
-        font-size: 1em;
-        color: rgb(144, 144, 144);
-        text-align: center;
+        @include p__customers;
     }
     
     &__img {
-        height: 300px;
-        align-self: center;
+        @include img__customers;
     }
 }
 
 /* CLIENTE: SOFIA*/
 
 .sofia__div {
-    display: grid;
-    justify-items: center;
-    grid-template-rows: 30px 300px 1fr;
+    @include div__customers;
 
     &__h {
-        font-family: "Bebas Neue";
-        font-size: 1.6em;
-        color: rgb(71, 71, 71);
-        text-align: center;
-        align-self: center;
-        margin: 0;
+        @include h__customers;
     }
 
     &__p {
-        font-family: "Lato Black";
-        font-size: 1em;
-        color: rgb(144, 144, 144);
-        text-align: center;
+        @include p__customers;
     }
 
     &__img {
-        height: 300px;
-        align-self: center;
+        @include img__customers;
     }
 }
 
 /* CLIENTE: BIANCA */
 
 .bianca__div {
-    display: grid;
-    justify-items: center;
-    grid-template-rows: 30px 300px 1fr;
+    @include div__customers;
 
     &__h {
-        font-family: "Bebas Neue";
-        font-size: 1.6em;
-        color: rgb(71, 71, 71);
-        text-align: center;
-        align-self: center;
-        margin: 0;
+        @include h__customers;
     }
 
     &__p {
-        font-family: "Lato Black";
-        font-size: 1em;
-        color: rgb(144, 144, 144);
-        text-align: center;
+        @include p__customers;
     }
 
     &__img {
-        height: 300px;
-        align-self: center;
+        @include img__customers;
     }
 }
 
@@ -414,7 +392,7 @@ body {
 /* 1° Título descriptivo STUDIO Page + Titulos */
 
 .Title {
-    font-family: "Bebas Neue";
+    font-family: $first-font;
     font-size: 60px;
     text-align: center;
     color: rgb(55, 148, 224);
@@ -422,7 +400,7 @@ body {
 }
 
 .Names {
-    font-family: "Lato Black";
+    font-family: $second-font;
     font-size: 65px;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -430,7 +408,7 @@ body {
 }
 
 .Name2 {
-    font-family: "Lato Black";
+    font-family: $second-font;
     font-size: 50px;
     text-align: center;
     color: rgb(156, 156, 156);
