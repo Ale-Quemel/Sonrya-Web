@@ -1,0 +1,15 @@
+
+	APLICACIÓN DE SEO
+
+- Recorte de espacios en blanco y recreación con Css para sustentar contenido.
+- Optimización de imágenes de Jpg a Png.
+- Utilización de archivos SVG en la página service.html
+- Ajuste de resolución de imágenes.
+- Eliminación de texto incrustrado (diseño) en la imágen para utilizar texto web (CSS).
+- Uso de la opción <optimizar para web> del programa Adobe Photoshop.
+- Uso de Keybord la página index.html
+- Optimización de URL y nombres de archivos.
+- Utilización de etiqueta <title> en todos los html.
+- Utilización de etiqueta <alt> para agregar una descripción más exacta de la imágen.
+- Utilización de Description en el index.html
+- Utilización de Keywords precisos para mejora la búsqueda, en el index.html.

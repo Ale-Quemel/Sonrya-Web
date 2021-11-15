@@ -140,12 +140,12 @@ body {
     align-items: space-evenly;
     margin-top: 3rem;
 
-    &__ctn__title {
+    &__title {
         font-family: $first-font;
         font-size: 2.5em;  
     }
 
-    &__ctn__p {
+    &__p {
         font-family: $second-font;
         font-size: 1.5em;
         font-style:normal;
@@ -529,6 +529,18 @@ body {
         flex-direction: column;
         justify-content: center;
         margin: auto;
+    }
+    .service__ctn {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: auto; 
 
+        &__p {
+            text-align: center;
+        }
     }
 }
+
+/* FIN (Por ahora) */
