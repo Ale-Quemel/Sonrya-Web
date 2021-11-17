@@ -4,6 +4,30 @@
 /* VARIABLES TEXT COLOR */
 /* MIXIN DE LA SECCIÓN 'SONRIENTES' DEL HOMEPAGE */
 /*HOJAS DE ESTILO*/
+/* PAGINA STUDIO  */
+main {
+  margin-top: 130px; }
+
+.welcome__div {
+  margin-top: 130px; }
+  .welcome__div__h {
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 10px;
+    text-align: center; }
+  .welcome__div__img {
+    background: url(/images/foto-web-sonrya.png) center fixed;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    margin-top: 0; }
+  .welcome__div .welcome__div__img img {
+    display: block;
+    justify-content: center; }
+
 body {
   background-color: #e4e4e4;
   margin: 0%; }
@@ -277,28 +301,6 @@ body {
   .bianca__div__img {
     height: 300px;
     align-self: center; }
-
-/* 1° Título descriptivo STUDIO Page + Titulos */
-.Title {
-  font-family: "Bebas Neue";
-  font-size: 60px;
-  text-align: center;
-  color: #3794e0;
-  text-shadow: 0px 5px 5px black; }
-
-.Names {
-  font-family: "Lato Black";
-  font-size: 65px;
-  text-align: center;
-  color: white;
-  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7); }
-
-.Name2 {
-  font-family: "Lato Black";
-  font-size: 50px;
-  text-align: center;
-  color: #9c9c9c;
-  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7); }
 
 /* TABLAS de E-SHOP page */
 #tabTshirt {

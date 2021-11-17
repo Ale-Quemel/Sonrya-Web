@@ -6,7 +6,7 @@
 
 /*HOJAS DE ESTILO*/
 
-@import 'header';
+@import 'studio-page';
 
 
 
@@ -344,32 +344,6 @@ body {
     }
 }
 
-
-/* 1° Título descriptivo STUDIO Page + Titulos */
-
-.Title {
-    font-family: $first-font;
-    font-size: 60px;
-    text-align: center;
-    color: rgb(55, 148, 224);
-    text-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
-}
-
-.Names {
-    font-family: $second-font;
-    font-size: 65px;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
-}
-
-.Name2 {
-    font-family: $second-font;
-    font-size: 50px;
-    text-align: center;
-    color: rgb(156, 156, 156);
-    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
-}
 
 /* TABLAS de E-SHOP page */
 

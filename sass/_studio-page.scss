@@ -1,0 +1,36 @@
+/* PAGINA STUDIO  */
+main {
+    margin-top: 130px; 
+}
+
+
+.welcome__div{
+    margin-top: 130px;
+
+    &__h {
+        font-family: $first-font;
+        font-size: 80px;
+        letter-spacing: 3px;
+        text-align: center;
+        padding: 2%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    &__img{
+        background: url(/images/foto-web-sonrya.png) center fixed;
+        background-size: cover;
+        height: 700px;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .welcome__div__img img {
+        display: block;
+        justify-content: center;
+    }
+
+}
+
+
+
