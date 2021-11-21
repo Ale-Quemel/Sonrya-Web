@@ -29,3 +29,26 @@
     align-self: center;
 }
 
+/*MIXIN DE LA SECCIÓN "ALE Y RO" DE LA STUDIO PAGE */
+
+@mixin aleyro__grid__div {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 250px, 30px, 1fr;
+}
+
+@mixin aleyro__h {
+    font-family: "Bebas Neue";
+    font-size: 2rem;
+    color: #474747;
+    text-align: center;
+    align-self: center;
+    padding: 2rem;
+}
+
+@mixin aleyro__p {
+    font-family: "Lato Black";
+    font-size: 1.2rem;
+    color: $gray-light-color;
+    text-align: center;
+    }

@@ -2,7 +2,9 @@
 /* VARIABLES */
 /* VARIABLES*/
 /* VARIABLES TEXT COLOR */
+/* FONDOs */
 /* MIXIN DE LA SECCIÓN 'SONRIENTES' DEL HOMEPAGE */
+/*MIXIN DE LA SECCIÓN "ALE Y RO" DE LA STUDIO PAGE */
 /*HOJAS DE ESTILO*/
 /* PAGINA STUDIO  */
 main {
@@ -19,14 +21,81 @@ main {
     margin-bottom: 10px;
     text-align: center; }
   .welcome__div__img {
-    background: url(/images/foto-web-sonrya.png) center fixed;
+    background: url(/images/fondo-studio-page-2.png) center fixed;
     background-size: cover;
     height: 700px;
     width: 100%;
     margin-top: 0; }
-  .welcome__div .welcome__div__img img {
-    display: block;
-    justify-content: center; }
+
+.first__ctn__div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: space-evenly;
+  padding: 3.5rem; }
+
+.first__ctn__h {
+  font-family: "Bebas Neue";
+  font-size: 2.5em; }
+
+.first__ctn__p {
+  font-family: "Lato Black";
+  font-size: 1.5em;
+  font-style: normal;
+  color: #5d5d5d;
+  padding: 1rem; }
+
+.textGray {
+  color: #474747; }
+
+.second__ctn__aleyro {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  padding: 3rem;
+  background-color: #d1d1d1; }
+
+.div__ro {
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 250px, 30px, 1fr; }
+  .div__ro__img {
+    height: 300px;
+    align-self: center; }
+  .div__ro__h {
+    font-family: "Bebas Neue";
+    font-size: 2rem;
+    color: #474747;
+    text-align: center;
+    align-self: center;
+    padding: 2rem; }
+  .div__ro__p {
+    font-family: "Lato Black";
+    font-size: 1.2rem;
+    color: #909090;
+    text-align: center; }
+
+.div__ale {
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 250px, 30px, 1fr; }
+  .div__ale__img {
+    height: 300px;
+    align-self: center; }
+  .div__ale__h {
+    font-family: "Bebas Neue";
+    font-size: 2rem;
+    color: #474747;
+    text-align: center;
+    align-self: center;
+    padding: 2rem; }
+  .div__ale__p {
+    font-family: "Lato Black";
+    font-size: 1.2rem;
+    color: #909090;
+    text-align: center; }
 
 body {
   background-color: #e4e4e4;

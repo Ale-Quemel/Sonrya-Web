@@ -1,3 +1,4 @@
+
 /* PAGINA STUDIO  */
 main {
     margin-top: 130px; 
@@ -18,19 +19,84 @@ main {
     }
     
     &__img{
-        background: url(/images/foto-web-sonrya.png) center fixed;
+        background: url(/images/fondo-studio-page-2.png) center fixed;
         background-size: cover;
         height: 700px;
         width: 100%;
         margin-top: 0;
     }
+    
 
-    .welcome__div__img img {
-        display: block;
-        justify-content: center;
+}
+
+.first__ctn {
+    &__div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: space-evenly;
+        padding: 3.5rem;
+    }
+
+    &__h {
+        font-family: $first-font;
+        font-size: 2.5em; 
+    }
+
+    &__p {
+        font-family: $second-font;
+        font-size: 1.5em;
+        font-style:normal;
+        color: rgb(93, 93, 93);
+        padding: 1rem;
     }
 
 }
 
+.textGray {
+        color: $gray-dark-color
+    }
 
+.second__ctn__aleyro {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 3rem;
+    background-color: $bg-color-ctn-aleyro
+}
+
+.div__ro {
+    @include aleyro__grid__div;
+
+    &__img {
+        @include img__customers;
+    }
+
+    &__h {
+        @include aleyro__h;
+    }
+
+    &__p {
+        @include aleyro__p;
+    }
+}
+
+.div__ale {
+    @include aleyro__grid__div;
+
+    &__img {
+        @include img__customers;
+    }
+
+    &__h {
+        @include aleyro__h;
+    }
+
+    &__p {
+        @include aleyro__p;
+    }
+
+}
 
