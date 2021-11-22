@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyectos</title>
-    <script src="https://kit.fontawesome.com/eb4c2aab8d.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/main.css" type="text/css">
 </head>
+
 <body>
     <header>
         <nav class="nav1">
@@ -15,122 +17,99 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="studio.html">Studio</a></li>
                 <li><a href="proyectos.html">Proyectos</a></li>
-                <li><a href="e-shop.html">E-Shop</a></li>
-                <div class="dropdown">
-                    <li class="dropdown-btn"><a href="servicios.html">Servicios</a></li>
-                        <!--<ul class="dropdown-content">
-                            <li><a href="">Diseño Ux/Ui</a></li>
-                            <li><a href="">Desarrollo Web</a></li>
-                            <li><a href="">Marketing</a></li>
-                            <li><a href="">Ilustración</a></li>
-                            <li><a href="">T-shirts</a></li>
-                        </ul>-->
-                </div>
+                <li><a href="servicios.html">Servicios</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
         
     </header>
 
-    <main>
-        <h2>Nuestras Trabajos</h2>
-        <section>
-            <article>
-                <h3>Merken</h3>
-                <img src="merken.jpg" alt="proyecto_merken">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates labore est amet vel nostrum soluta dignissimos, vero quos architecto perspiciatis, dolores qui quod. Ducimus in voluptatibus dicta perspiciatis. Soluta, saepe?</p>
-            </article>
-            <article>
-                <h3>Irish Catering</h3>
-                <img src="irish.jpg" alt="proyecto_irish_catering">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ullam eum sapiente id, necessitatibus non illo laudantium maiores, fugiat ipsa perferendis? Quas quidem, aperiam accusamus excepturi ipsam tenetur maiores nihil.</p>
-            </article>
-            <article>
-                <h3>Lo de Petro</h3>
-                <img src="petro.jpg" alt="proyecto_lo_de_petro">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur facilis nesciunt ut blanditiis debitis qui inventore rerum. Dignissimos recusandae sequi, quia deleniti voluptates explicabo aperiam rem nesciunt dolores inventore.</p>
-            </article>
-            <article>
-                <h3>Sigel Studio</h3>
-                <img src="sigel.jpg" alt="proyecto_sigel_studio">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cumque esse dolore voluptates. Dolore quis doloribus dicta provident dolorem quod consequatur incidunt ad fuga? Tempora nemo illum corrupti eos qui?</p>
-            </article>
-            <aside>
-                <h2>Desde las grandes puertas a las pequeñas visagras</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, atque quia. Veniam qui modi dolores aut alias nobis sed laborum.</p>
-                <div>
-                    <ul>
-                        <li><img src="ph1.jpg" alt="interfaz_Ui">Interfaz e identindad</li>
-                        <li><img src="ph2.jpg" alt="testing_Ux">Usuarios, flujo y experiencias</li>
-                        <li><img src="ph3.jpg" alt="wireframes_Sketch">Idea, papel y lapiz</li>
-                        <li><img src="ph4.jpg" alt="web_dev">Maquetación, Estilo y Dinamismo</li>
-                        <li><img src="ph5.jpg" alt="recursos_desing">Assets, Backgrounds, Animaciones +</li>
-                        <li><img src="ph6.jpg" alt="plan_marketing">Estrategias de Marketing y Redes</li>
-                    </ul>
-                </div>
-            </aside>
+    <main class="main__proyect">
+        <div class="proyect__header">
+            <h1 class="proyect__header__h">Proyectos</h1>
+            <p class="proyect__header__p">Éstos son algunos de los trabajos que hemos desarrollado con nuestros clientes.</p>
+        </div>
+
+        <section class="proyect__ctn">
+            <img class="proyect__ctn__img" src="images/merken-panes.jpg" alt="proyecto-merken-panes">
+            <img class="proyect__ctn__img" src="images/lodepetro.png" alt="proyecto-lo-de-petro-pastelería">
+            <img class="proyect__ctn__img" src="images/inmo-langone.jpg" alt="proyecto-inmobiliaria-langone">
+            <img class="proyect__ctn__img" src="images/caja-de-abogacia.png" alt="proyecto-caja-de-abogacia">
+            <img class="proyect__ctn__img" src="images/irish-catering.png" alt="proyecto-irish-catering">
+            <img class="proyect__ctn__img" src="images/studio-rama-ploteo.jpg" alt="proyecto-studio-rama-ploteo">
         </section>
+        
+        <section class="link__section">
+            <div class="ctn-contact-link text-center w-100 mt-5">
+                <div class="ctn-text-link p-5">
+                    <h2>¿Tenés un proyecto o idea?</h2>
+                    <p><a href="/contacto.html">¡Escribinos!</a></p>
+                </div>
+            </div>
+        </section>
+        
 
     </main>
     
-    <footer> 
-        <section class="column-left">
-            <div class="div-contact">
-                <h3>Contacto</h3>
-                <ul>
-                    <li>+54 1161295547</li>
-                    <li>sonrya_studio@gmail.com</li>
-                    <li>La Plata, Buenos Aires</li>
-                </ul>
-               </div>
-            <div class="div-faqs">
-                <h3>FAQ's</h2>
-                <ul>
-                    <li><a href="#">Preguntas frecuentes</a></li>
-                    <li><a href="contacto.html">Presupuestos</a></li>
-                    <li><a href="#">Política de cambios y devoluciones</a></li>
-                </ul>
-            </div>    
-        </section>
+    <!--FOOTER CON BOOTSTRAP-->
 
-        <section class="column-right">
-            <div class="newsletter">
-                <h3>Newsletter</h3>
-                <p>¡Sucribite para recibir las novedades!</p>
-                <form class="newsletter-form" action="">
-                    <label for="correo"></label>
-                    <input type="email" id="correo" name="correo" required>
-                    <button type="submit" class="btn-submit">¡A darle!</button>
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-lg-3 col-sm-12">
+                <h5>Contacto</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">+54 11 6129 5547</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">sonrya-studio@gmail.com</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">La Plata, Buenos Aires</a></li>
+                </ul>
+                </div>
+        
+                <div class="col-lg-3 col-sm-12">
+                <h5>FAQ's</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="/contacto.html" class="nav-link p-0 text-muted">Preguntas frecuentes</a></li>
+                    <li class="nav-item mb-2"><a href="/contacto.html" class="nav-link p-0 text-muted">Presupuestos</a></li>
+                    <li class="nav-item mb-2"><a href="/servicios.html" class="nav-link p-0 text-muted">Servicios</a></li>
+                </ul>
+                </div>
+        
+                <div class="col-lg-4 col-sm-12offset-1">
+                <form>
+                    <h5>¡Suscribíte al Newsletter!</h5>
+                    <p>Ideas, proyectos, propuestas y más cositas :) </p>
+                    <div class="d-flex w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                    <input id="newsletter1" type="text" class="form-control" placeholder="tucorreo@gmail.com" required>
+                    <button class="btn btn-warning" type="button">Enviar</button>
+                    </div>
                 </form>
+                </div>
             </div>
-
-            <div class="footer-network">
-                <ul>
-                    <li>
-                        <a href="https://facebook/sonryaok/">
-                            <i class="fab fa-facebook"></i>
-                        </a>
+        
+            <div class="d-flex justify-content-between py-4 my-4 border-top">
+                <p>&copy; 2021 Sonrya Studio. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3">
+                    <a class="link-dark" target="_blank" href="https://instagram.com/sonrya_ok"><i class="bi bi-instagram"></i></a>
                     </li>
-                    <li>
-                        <a href="https://twitter/sonryaok/"><i class="fab fa-twitter"></i>
-                        </a>
+                    <li class="ms-3">
+                    <a class="link-dark" target="_blank" href="https://facebook.com/sonryaok"><i class="bi bi-facebook"></i></a>
                     </li>
-                    <li>
-                        <a href="https://instagram/sonryaok/"><i class="fab fa-instagram"></i>
-                        </a>
+                    <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-linkedin"></i></a>
                     </li>
-                    <li>
-                        <a href="https://linkedin/sonrya_studio/"><i class="fab fa-linkedin"></i>
-                        </a>
+                    <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-behance"></i></a>
                     </li>
-                    <li>
-                        <a href="https://behance/sonrya_studio"><i class="fab fa-behance"></i>
-                        </a>
+                    <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-github"></i></a>
                     </li>
                 </ul>
             </div>
-        </section>
-    </footer>
+        </footer>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>

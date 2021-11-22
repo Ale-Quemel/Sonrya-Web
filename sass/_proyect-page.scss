@@ -1,0 +1,73 @@
+
+.main__proyect {
+    margin-top: 130px;
+}
+
+.proyect__header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: space-evenly;
+    padding: 3.5rem;
+
+    &__h {
+        @include principal__title
+    }
+
+    &__p {
+        @include p__style
+    }
+}
+
+.proyect__ctn {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 2rem;
+
+    &__img {
+        height: 400px;
+        justify-self: center;
+    }
+}
+
+.proyect__ctn img:hover {
+    border-radius: 5px;
+    transition: 0.7s;
+    box-shadow: 5px 8px 13px rgba(0,0,0,0.5);
+}
+
+/* MEDIAQUERIS */
+
+@media only screen and (max-width: 600px) {
+    .skills__ctn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .proyect__ctn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .py-5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+}

@@ -1,3 +1,33 @@
+
+/* FUENTES DE TÍTULOS Y PÁRRAFOS */
+
+@mixin principal__title {
+    font-family: $first-font;
+    font-size: 3em; 
+}
+
+@mixin p__style {
+    font-family: $second-font;
+    font-size: 1.5em;
+    font-style:normal;
+    color: rgb(93, 93, 93);
+    padding: 1rem;
+}
+
+@mixin secondary__title {
+    font-family: $first-font;
+    color: $gray-2-color;
+    font-size: 2.5em; 
+}
+
+@mixin p__contact__style {
+    font-family: $second-font;
+    font-size: 1.2em;
+    font-style:normal;
+    color: $gray-light-color;
+    padding: 1rem;
+}
+
 /* MIXIN DE LA SECCIÓN 'SONRIENTES' DEL HOMEPAGE */
 
 @mixin div__customers {
@@ -39,7 +69,7 @@
 
 @mixin aleyro__h {
     font-family: "Bebas Neue";
-    font-size: 2rem;
+    font-size: 2.3rem;
     color: #474747;
     text-align: center;
     align-self: center;
@@ -52,3 +82,41 @@
     color: $gray-light-color;
     text-align: center;
     }
+
+/*MIXIN DE LA SECCIÓN "BRUJULAS" DE LA STUDIO PAGE */
+
+@mixin article__grip {
+    display: grid;
+    justify-items: center;
+}
+
+@mixin brujulas__img {
+    height: 100px;
+    align-self: center;
+}
+
+@mixin brujulas__h {
+    font-family: "Bebas Neue";
+    font-size: 2rem;
+    color: $gray-dark-color;
+    text-align: center;
+    align-self: center;
+    padding: 1rem;
+}
+
+@mixin brujulas__p {
+    font-family: "Lato Black";
+    font-size: 1.2rem;
+    color: $gray-light-color;
+    text-align: center;
+    }
+
+
+/* MIXIN SECCION "SKILLS" DE PROYECTOS PAGE */
+
+@mixin skills__img {
+    height: 100%;
+    width: 50%;
+    align-self: center;
+    border-image: 13px;
+}

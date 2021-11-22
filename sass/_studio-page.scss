@@ -1,6 +1,6 @@
 
 /* PAGINA STUDIO  */
-main {
+.main__studio {
     margin-top: 130px; 
 }
 
@@ -40,16 +40,11 @@ main {
     }
 
     &__h {
-        font-family: $first-font;
-        font-size: 2.5em; 
+        @include principal__title
     }
 
     &__p {
-        font-family: $second-font;
-        font-size: 1.5em;
-        font-style:normal;
-        color: rgb(93, 93, 93);
-        padding: 1rem;
+        @include p__style
     }
 
 }
@@ -100,3 +95,98 @@ main {
 
 }
 
+.brujulas__ctn {
+    background-color: $bg-color-light-body;
+    padding-bottom: 50px;
+}
+
+.brujula__title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: space-evenly;
+    padding: 3rem;
+
+    &__h {
+        @include principal__title;
+    }
+
+    &__p {
+        @include p__style
+    }
+}
+
+.brujulas__div {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 110px, 20px, 1fr;
+    grid-gap: 2rem;
+    padding: 2rem;
+}
+
+.brujula__art {
+    @include article__grip;
+
+    &__img {
+        @include brujulas__img;
+    }
+
+    &__h {
+        @include brujulas__h;
+    }
+
+    &__p {
+        @include brujulas__p
+    }
+}
+
+.brujula__art:hover {
+    background-color: $yellow-2-color;
+    border-radius: 5px;
+    transition: 0.7s;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.4);
+
+    .brujula__art__h {
+        color: $white-cream-color;
+        
+    }
+
+    .brujula__art__p {
+        color: $bg-color-light-body;
+    }
+}
+
+/* MEDIAQUERIS */
+
+@media only screen and (max-width: 600px) {
+    .first__ctn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .brujulas__div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .second__ctn__aleyro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-gap: 80px;
+        margin: auto;
+    }
+
+}

@@ -1,0 +1,39 @@
+
+
+.main__contact {
+    margin-top: 130px;
+}
+
+.ctn__form {
+    background-color: $bg-color-light-body;
+}
+
+.formulario {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+}
+
+.cabecera__ctn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: space-evenly;
+    padding: 3.5rem;
+}
+
+.cabecera__ctn__div1__h {
+    @include principal__title
+}
+
+.cabecera__ctn__div2 {
+    &__h {
+        @include secondary__title
+    }
+
+    &__p {
+        @include p__contact__style
+    }
+}
+

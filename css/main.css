@@ -3,11 +3,14 @@
 /* VARIABLES*/
 /* VARIABLES TEXT COLOR */
 /* FONDOs */
+/* FUENTES DE TÍTULOS Y PÁRRAFOS */
 /* MIXIN DE LA SECCIÓN 'SONRIENTES' DEL HOMEPAGE */
 /*MIXIN DE LA SECCIÓN "ALE Y RO" DE LA STUDIO PAGE */
+/*MIXIN DE LA SECCIÓN "BRUJULAS" DE LA STUDIO PAGE */
+/* MIXIN SECCION "SKILLS" DE PROYECTOS PAGE */
 /*HOJAS DE ESTILO*/
 /* PAGINA STUDIO  */
-main {
+.main__studio {
   margin-top: 130px; }
 
 .welcome__div {
@@ -37,7 +40,7 @@ main {
 
 .first__ctn__h {
   font-family: "Bebas Neue";
-  font-size: 2.5em; }
+  font-size: 3em; }
 
 .first__ctn__p {
   font-family: "Lato Black";
@@ -66,7 +69,7 @@ main {
     align-self: center; }
   .div__ro__h {
     font-family: "Bebas Neue";
-    font-size: 2rem;
+    font-size: 2.3rem;
     color: #474747;
     text-align: center;
     align-self: center;
@@ -86,7 +89,7 @@ main {
     align-self: center; }
   .div__ale__h {
     font-family: "Bebas Neue";
-    font-size: 2rem;
+    font-size: 2.3rem;
     color: #474747;
     text-align: center;
     align-self: center;
@@ -96,6 +99,180 @@ main {
     font-size: 1.2rem;
     color: #909090;
     text-align: center; }
+
+.brujulas__ctn {
+  background-color: #f3f3f3;
+  padding-bottom: 50px; }
+
+.brujula__title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: space-evenly;
+  padding: 3rem; }
+  .brujula__title__h {
+    font-family: "Bebas Neue";
+    font-size: 3em; }
+  .brujula__title__p {
+    font-family: "Lato Black";
+    font-size: 1.5em;
+    font-style: normal;
+    color: #5d5d5d;
+    padding: 1rem; }
+
+.brujulas__div {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 110px, 20px, 1fr;
+  grid-gap: 2rem;
+  padding: 2rem; }
+
+.brujula__art {
+  display: grid;
+  justify-items: center; }
+  .brujula__art__img {
+    height: 100px;
+    align-self: center; }
+  .brujula__art__h {
+    font-family: "Bebas Neue";
+    font-size: 2rem;
+    color: #474747;
+    text-align: center;
+    align-self: center;
+    padding: 1rem; }
+  .brujula__art__p {
+    font-family: "Lato Black";
+    font-size: 1.2rem;
+    color: #909090;
+    text-align: center; }
+
+.brujula__art:hover {
+  background-color: #ffcb20;
+  border-radius: 5px;
+  transition: 0.7s;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4); }
+  .brujula__art:hover .brujula__art__h {
+    color: #f0ffff; }
+  .brujula__art:hover .brujula__art__p {
+    color: #f3f3f3; }
+
+/* MEDIAQUERIS */
+@media only screen and (max-width: 600px) {
+  .first__ctn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; } }
+
+@media only screen and (max-width: 600px) {
+  .brujulas__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; } }
+
+@media only screen and (max-width: 600px) {
+  .second__ctn__aleyro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-gap: 80px;
+    margin: auto; } }
+
+.main__contact {
+  margin-top: 130px; }
+
+.ctn__form {
+  background-color: #f3f3f3; }
+
+.formulario {
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px; }
+
+.cabecera__ctn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: space-evenly;
+  padding: 3.5rem; }
+
+.cabecera__ctn__div1__h {
+  font-family: "Bebas Neue";
+  font-size: 3em; }
+
+.cabecera__ctn__div2__h {
+  font-family: "Bebas Neue";
+  color: #6d6d6d;
+  font-size: 2.5em; }
+
+.cabecera__ctn__div2__p {
+  font-family: "Lato Black";
+  font-size: 1.2em;
+  font-style: normal;
+  color: #909090;
+  padding: 1rem; }
+
+.main__proyect {
+  margin-top: 130px; }
+
+.proyect__header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: space-evenly;
+  padding: 3.5rem; }
+  .proyect__header__h {
+    font-family: "Bebas Neue";
+    font-size: 3em; }
+  .proyect__header__p {
+    font-family: "Lato Black";
+    font-size: 1.5em;
+    font-style: normal;
+    color: #5d5d5d;
+    padding: 1rem; }
+
+.proyect__ctn {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  padding: 2rem; }
+  .proyect__ctn__img {
+    height: 400px;
+    justify-self: center; }
+
+.proyect__ctn img:hover {
+  border-radius: 5px;
+  transition: 0.7s;
+  box-shadow: 5px 8px 13px rgba(0, 0, 0, 0.5); }
+
+/* MEDIAQUERIS */
+@media only screen and (max-width: 600px) {
+  .skills__ctn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; } }
+
+@media only screen and (max-width: 600px) {
+  .proyect__ctn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; } }
+
+@media only screen and (max-width: 600px) {
+  .py-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; } }
 
 body {
   background-color: #e4e4e4;
@@ -165,7 +342,7 @@ body {
   margin-top: 3rem; }
   .slogan__ctn__title {
     font-family: "Bebas Neue";
-    font-size: 2.5em; }
+    font-size: 3em; }
   .slogan__ctn__p {
     font-family: "Lato Black";
     font-size: 1.5em;
@@ -183,9 +360,7 @@ body {
 .service__ctn {
   margin-left: 100px;
   margin-right: 100px;
-  display: flex;
-  flex-flow: column wrap;
-  align-content: center; }
+  padding: 30px; }
   .service__ctn__title {
     font-family: "Bebas Neue";
     font-size: 2.3em;
@@ -196,95 +371,58 @@ body {
     font-family: "Lato Black";
     font-size: 1.2em;
     font-style: normal;
-    color: #5d5d5d;
-    margin-bottom: 70px; }
+    color: #5d5d5d; }
 
-/* SECCION DE 1° SERVICIO: SITIOS WEB */
-.web__article {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; }
-  .web__article__text {
-    display: flex;
-    flex-flow: column wrap;
-    align-self: center; }
-    .web__article__text__h {
-      font-family: "Bebas Neue";
-      font-size: 1.6em;
-      color: #474747;
-      text-align: center;
-      margin: 0; }
-    .web__article__text__p {
-      font-family: "Lato Black";
-      font-size: 1.4em;
-      color: #909090;
-      text-align: center; }
-    .web__article__text__img img {
-      height: 450px;
-      width: 675px;
-      justify-self: center;
-      align-self: center; }
+.skills__ctn {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50%, 50%;
+  justify-content: space-between;
+  grid-gap: 2rem;
+  padding: 3rem; }
 
-/* SECCION DE 2° SERVICIO: DISEÑO UX/UI */
-.design__article {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-evenly;
-  margin-top: 50px; }
-  .design__article__text {
-    display: flex;
-    flex-flow: column wrap;
-    align-self: center; }
-    .design__article__text__h {
-      font-family: "Bebas Neue";
-      font-size: 1.6em;
-      color: #474747;
-      text-align: center;
-      margin: 0; }
-    .design__article__text__p {
-      font-family: "Lato Black";
-      font-size: 1.4em;
-      color: #909090;
-      text-align: center; }
-  .design__article__img img {
-    height: 450px;
-    width: 675px;
-    justify-self: center;
-    align-self: center; }
+.skills__art {
+  display: grid;
+  justify-items: center; }
+  .skills__artimg {
+    height: 100%;
+    width: 50%;
+    align-self: center;
+    border-image: 13px; }
+  .skills__art__h {
+    font-family: "Bebas Neue";
+    font-size: 2rem;
+    color: #474747;
+    text-align: center;
+    align-self: center;
+    padding: 1rem; }
+  .skills__art__p {
+    font-family: "Lato Black";
+    font-size: 1.2rem;
+    color: #909090;
+    text-align: center; }
 
-/* SECCION DE 3° SERVICIO: MARKETING DIGITAL */
-.mkt__article {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 50px; }
-  .mkt__article__text {
-    display: flex;
-    flex-flow: column wrap;
-    align-self: center; }
-    .mkt__article__text__h {
-      font-family: "Bebas Neue";
-      font-size: 1.6em;
-      color: #474747;
-      text-align: center;
-      margin: 0; }
-    .mkt__article__text__p {
-      font-family: "Bebas Neue";
-      font-size: 1.6em;
-      color: #474747;
-      text-align: center;
-      margin: 0; }
-  .mkt__article__img img {
-    height: 450px;
-    width: 675px;
-    justify-self: center;
-    align-self: center; }
+.skills__art:hover {
+  background-color: #ffcb20;
+  border-radius: 5px;
+  transition: 0.7s;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
+  padding: 0.5rem; }
+  .skills__art:hover .skills__art__h {
+    color: #f0ffff; }
+  .skills__art:hover .skills__art__p {
+    color: #f3f3f3; }
+
+.link__section {
+  background-color: #d1d1d1; }
 
 /* SECCIÓN DE SONRYENTES - EXPERIENCIAS DE CLIENTES */
 .customers__section {
   margin-left: 100px;
   margin-right: 100px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  padding: 30px; }
   .customers__section__title {
     font-family: "Bebas Neue";
     font-size: 2.3em;
@@ -371,23 +509,6 @@ body {
     height: 300px;
     align-self: center; }
 
-/* TABLAS de E-SHOP page */
-#tabTshirt {
-  background-color: silver;
-  box-shadow: 0px 2px 2px;
-  text-align: center;
-  border: solid 2px rgba(0, 0, 0, 0.3);
-  border-inline: 1px solid;
-  display: inline-table; }
-
-#tabCanvas {
-  background-color: silver;
-  box-shadow: 0px 2px 2px;
-  text-align: center;
-  border: solid 2px rgba(0, 0, 0, 0.3);
-  border-inline: 1px solid;
-  display: inline-table; }
-
 /* SERVICIOS PAGE */
 .container-service-page h2 {
   font-family: "Bebas Neue";
@@ -468,5 +589,19 @@ body {
     margin: auto; }
     .service__ctn__p {
       text-align: center; } }
+
+@media only screen and (max-width: 600px) {
+  .service__ctn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; } }
+
+@media only screen and (max-width: 600px) {
+  .skills__ctn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; } }
 
 /* FIN (Por ahora) */
