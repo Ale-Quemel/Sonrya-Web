@@ -18,6 +18,21 @@ body {
 
 /* BARRA DE NAVEGACIÓN */
 
+.nav1 {
+    &__logo {
+        display: inline-block;
+        vertical-align: middle;
+
+        & img {
+            display: block;
+            width: 16%;
+            margin-top: 14px;
+            margin-left: 45px;
+        }
+    }
+    
+}
+
 .nav1 ul {
     list-style-type: none;
     margin: 0;
@@ -27,29 +42,29 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    height: 75px;
     background-color: rgb(29, 29, 29);
+    
 
     & li {
-        float: left;
+        float: right;
         font-family: $first-font;
         font-size: 1.4em;
         letter-spacing: 2px;
+        
     }
 
     & li a {
         display: block;
         color: #ffffff;
         text-align: center;
-        padding: 30px;
+        justify-content: center;
+        padding: 20px;
         text-decoration: none;
     }
 
-    & li:hover {
-        background-color: rgba(0, 0, 0, 0.4);
-        padding: 0%;
-        margin: 0%;
-        font-size: 1.6em;
-        transition: 1s;
+    & li a:hover {
+        color: $yellow-color;
     }
 }
 
@@ -140,6 +155,7 @@ body {
         font-size: 1.2em;
         font-style: normal;
         color: $gray-color;
+        width: 50%;
     }
 }
 
@@ -200,6 +216,15 @@ body {
     margin-bottom: 50px;
     padding: 30px;
 
+    &__div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: space-evenly;
+        padding: 3rem;
+    }
+
     &__title {
         font-family: $first-font;
         font-size: 2.3em;
@@ -214,6 +239,8 @@ body {
         font-style: normal;
         color: rgb(93, 93, 93);
         margin-bottom: 70px;
+        width: 50%;
+
     }
 }
 
@@ -224,7 +251,7 @@ body {
     justify-items: space-evenly;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 30rem;
-    grid-gap: 30px;
+    grid-gap: 2rem;
 }
 
 .ivan__div {

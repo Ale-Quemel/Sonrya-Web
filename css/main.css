@@ -69,7 +69,7 @@
   justify-items: center;
   grid-template-rows: 250px, 30px, 1fr; }
   .div__ro__img {
-    height: 300px;
+    height: 250px;
     align-self: center; }
   .div__ro__h {
     font-family: 'Bebas Neue', cursive;
@@ -89,7 +89,7 @@
   justify-items: center;
   grid-template-rows: 250px, 30px, 1fr; }
   .div__ale__img {
-    height: 300px;
+    height: 250px;
     align-self: center; }
   .div__ale__h {
     font-family: 'Bebas Neue', cursive;
@@ -245,8 +245,8 @@
 .proyect__ctn {
   display: grid;
   align-items: center;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-gap: 2rem;
   padding: 2rem; }
   .proyect__ctn__img {
@@ -285,6 +285,15 @@ body {
   margin: 0%; }
 
 /* BARRA DE NAVEGACIÓN */
+.nav1__logo {
+  display: inline-block;
+  vertical-align: middle; }
+  .nav1__logo img {
+    display: block;
+    width: 16%;
+    margin-top: 14px;
+    margin-left: 45px; }
+
 .nav1 ul {
   list-style-type: none;
   margin: 0;
@@ -294,9 +303,10 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  height: 75px;
   background-color: #1d1d1d; }
   .nav1 ul li {
-    float: left;
+    float: right;
     font-family: "Bebas Neue", cursive;
     font-size: 1.4em;
     letter-spacing: 2px; }
@@ -304,14 +314,11 @@ body {
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 30px;
+    justify-content: center;
+    padding: 20px;
     text-decoration: none; }
-  .nav1 ul li:hover {
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 0%;
-    margin: 0%;
-    font-size: 1.6em;
-    transition: 1s; }
+  .nav1 ul li a:hover {
+    color: #fa9f42; }
 
 .main__div {
   margin-top: 130px; }
@@ -377,7 +384,8 @@ body {
     font-family: "Lato", sans-serif;
     font-size: 1.2em;
     font-style: normal;
-    color: #5d5d5d; }
+    color: #5d5d5d;
+    width: 50%; }
 
 .skills__ctn {
   display: grid;
@@ -431,6 +439,13 @@ body {
   margin-right: 100px;
   margin-bottom: 50px;
   padding: 30px; }
+  .customers__section__div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: space-evenly;
+    padding: 3rem; }
   .customers__section__title {
     font-family: "Bebas Neue", cursive;
     font-size: 2.3em;
@@ -442,7 +457,8 @@ body {
     font-size: 1.2em;
     font-style: normal;
     color: #5d5d5d;
-    margin-bottom: 70px; }
+    margin-bottom: 70px;
+    width: 50%; }
 
 /*CLIENTE: IVAN*/
 .customers__div {
@@ -450,12 +466,12 @@ body {
   justify-items: space-evenly;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 30rem;
-  grid-gap: 30px; }
+  grid-gap: 2rem; }
 
 .ivan__div {
   display: grid;
   justify-items: center;
-  grid-template-rows: 30px 300px 1fr; }
+  grid-template-rows: 250px, 30px, 1fr; }
   .ivan__div__h {
     font-family: 'Bebas Neue', cursive;
     font-size: 1.6em;
@@ -470,14 +486,14 @@ body {
     color: #909090;
     text-align: center; }
   .ivan__div__img {
-    height: 300px;
+    height: 250px;
     align-self: center; }
 
 /* CLIENTE: SOFIA*/
 .sofia__div {
   display: grid;
   justify-items: center;
-  grid-template-rows: 30px 300px 1fr; }
+  grid-template-rows: 250px, 30px, 1fr; }
   .sofia__div__h {
     font-family: 'Bebas Neue', cursive;
     font-size: 1.6em;
@@ -492,14 +508,14 @@ body {
     color: #909090;
     text-align: center; }
   .sofia__div__img {
-    height: 300px;
+    height: 250px;
     align-self: center; }
 
 /* CLIENTE: BIANCA */
 .bianca__div {
   display: grid;
   justify-items: center;
-  grid-template-rows: 30px 300px 1fr; }
+  grid-template-rows: 250px, 30px, 1fr; }
   .bianca__div__h {
     font-family: 'Bebas Neue', cursive;
     font-size: 1.6em;
@@ -514,7 +530,7 @@ body {
     color: #909090;
     text-align: center; }
   .bianca__div__img {
-    height: 300px;
+    height: 250px;
     align-self: center; }
 
 /* SERVICIOS PAGE */

@@ -33,7 +33,7 @@
 @mixin div__customers {
     display: grid;
     justify-items: center;
-    grid-template-rows: 30px 300px 1fr;
+    grid-template-rows: 250px, 30px, 1fr;
 }
 
 @mixin h__customers {
@@ -55,7 +55,7 @@
 
 
 @mixin img__customers {
-    height: 300px;
+    height: 250px;
     align-self: center;
 }
 
