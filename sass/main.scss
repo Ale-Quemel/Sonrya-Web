@@ -38,18 +38,18 @@ body {
 
     & li a {
         display: block;
-    color: #ffffff;
-    text-align: center;
-    padding: 30px;
-    text-decoration: none;
+        color: #ffffff;
+        text-align: center;
+        padding: 30px;
+        text-decoration: none;
     }
 
     & li:hover {
         background-color: rgba(0, 0, 0, 0.4);
-    padding: 0%;
-    margin: 0%;
-    font-size: 1.6em;
-    transition: 1s;
+        padding: 0%;
+        margin: 0%;
+        font-size: 1.6em;
+        transition: 1s;
     }
 }
 
@@ -151,6 +151,8 @@ body {
     justify-content: space-between;
     grid-gap: 2rem;
     padding: 3rem;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .skills__art {
@@ -281,12 +283,12 @@ body {
 /* SERVICIOS PAGE */
 
 .container-service-page h2 {
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue', cursive;
     font-size: 2.5em;
 }
 
 .container-service-page p {
-    font-family: "Lato Black";
+    font-family: 'Lato', sans-serif;
     font-size: 1.3em;
     font-style:normal;
     color: rgb(93, 93, 93);
@@ -294,34 +296,34 @@ body {
 
 .textCian {
     color: rgb(77, 143, 197);
-    font-family: "Lato Black";
+    font-family: 'Lato', sans-serif;
 }
 
 .textMagent {
     color: rgb(228, 96, 96);
-    font-family: "Lato Black";
+    font-family: 'Lato', sans-serif;
 }
 
 .first-cnt-sct h2 {
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue', cursive;
     font-size: 2.1em;
     color: rgb(71, 71, 71);
 }
 
 .first-cnt-sct p {
-    font-family: "Lato Black";
+    font-family: 'Lato', sans-serif;
     font-size: 1em;
     color: rgb(144, 144, 144);
 }
 
 .ctn-text-link h2 {
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue', cursive;
     font-size: 2.1em;
     color: rgb(71, 71, 71);
 }
 
 .ctn-text-link p a {
-    font-family: "Lato Black";
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
     font-size: 2em;
     color: #fa9f42;

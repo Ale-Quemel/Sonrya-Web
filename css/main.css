@@ -16,7 +16,7 @@
 .welcome__div {
   margin-top: 130px; }
   .welcome__div__h {
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", cursive;
     font-size: 80px;
     letter-spacing: 3px;
     text-align: center;
@@ -36,14 +36,16 @@
   flex-wrap: wrap;
   text-align: center;
   align-items: space-evenly;
-  padding: 3.5rem; }
+  padding: 3.5rem;
+  margin-left: 100px;
+  margin-right: 100px; }
 
 .first__ctn__h {
-  font-family: "Bebas Neue";
+  font-family: "Bebas Neue", cursive;
   font-size: 3em; }
 
 .first__ctn__p {
-  font-family: "Lato Black";
+  font-family: "Lato", sans-serif;
   font-size: 1.5em;
   font-style: normal;
   color: #5d5d5d;
@@ -58,7 +60,9 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
   padding: 3rem;
-  background-color: #d1d1d1; }
+  background-color: #d1d1d1;
+  margin-left: 100px;
+  margin-right: 100px; }
 
 .div__ro {
   display: grid;
@@ -68,14 +72,14 @@
     height: 300px;
     align-self: center; }
   .div__ro__h {
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue', cursive;
     font-size: 2.3rem;
     color: #474747;
     text-align: center;
     align-self: center;
     padding: 2rem; }
   .div__ro__p {
-    font-family: "Lato Black";
+    font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
     color: #909090;
     text-align: center; }
@@ -88,21 +92,23 @@
     height: 300px;
     align-self: center; }
   .div__ale__h {
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue', cursive;
     font-size: 2.3rem;
     color: #474747;
     text-align: center;
     align-self: center;
     padding: 2rem; }
   .div__ale__p {
-    font-family: "Lato Black";
+    font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
     color: #909090;
     text-align: center; }
 
 .brujulas__ctn {
   background-color: #f3f3f3;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px; }
 
 .brujula__title {
   display: flex;
@@ -112,10 +118,10 @@
   align-items: space-evenly;
   padding: 3rem; }
   .brujula__title__h {
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", cursive;
     font-size: 3em; }
   .brujula__title__p {
-    font-family: "Lato Black";
+    font-family: "Lato", sans-serif;
     font-size: 1.5em;
     font-style: normal;
     color: #5d5d5d;
@@ -136,14 +142,14 @@
     height: 100px;
     align-self: center; }
   .brujula__art__h {
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     color: #474747;
     text-align: center;
     align-self: center;
     padding: 1rem; }
   .brujula__art__p {
-    font-family: "Lato Black";
+    font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
     color: #909090;
     text-align: center; }
@@ -201,16 +207,16 @@
   padding: 3.5rem; }
 
 .cabecera__ctn__div1__h {
-  font-family: "Bebas Neue";
+  font-family: "Bebas Neue", cursive;
   font-size: 3em; }
 
 .cabecera__ctn__div2__h {
-  font-family: "Bebas Neue";
+  font-family: "Bebas Neue", cursive;
   color: #6d6d6d;
   font-size: 2.5em; }
 
 .cabecera__ctn__div2__p {
-  font-family: "Lato Black";
+  font-family: "Lato", sans-serif;
   font-size: 1.2em;
   font-style: normal;
   color: #909090;
@@ -227,10 +233,10 @@
   align-items: space-evenly;
   padding: 3.5rem; }
   .proyect__header__h {
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", cursive;
     font-size: 3em; }
   .proyect__header__p {
-    font-family: "Lato Black";
+    font-family: "Lato", sans-serif;
     font-size: 1.5em;
     font-style: normal;
     color: #5d5d5d;
@@ -291,7 +297,7 @@ body {
   background-color: #1d1d1d; }
   .nav1 ul li {
     float: left;
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", cursive;
     font-size: 1.4em;
     letter-spacing: 2px; }
   .nav1 ul li a {
@@ -310,7 +316,7 @@ body {
 .main__div {
   margin-top: 130px; }
   .main__div__title {
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", cursive;
     font-size: 80px;
     letter-spacing: 3px;
     text-align: center;
@@ -318,7 +324,7 @@ body {
     margin-bottom: 10px;
     text-align: center; }
   .main__div__subtitle {
-    font-family: "Lato Black";
+    font-family: "Lato", sans-serif;
     font-size: 2.1em;
     text-align: center;
     letter-spacing: 2px;
@@ -341,20 +347,20 @@ body {
   align-items: space-evenly;
   margin-top: 3rem; }
   .slogan__ctn__title {
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", cursive;
     font-size: 3em; }
   .slogan__ctn__p {
-    font-family: "Lato Black";
+    font-family: "Lato", sans-serif;
     font-size: 1.5em;
     font-style: normal;
     color: #5d5d5d;
     margin-bottom: 3rem; }
     .slogan__ctn__p .textCian {
       color: #4d8fc5;
-      font-family: "Lato Black"; }
+      font-family: "Lato", sans-serif; }
     .slogan__ctn__p .textMagent {
       color: #e46060;
-      font-family: "Lato Black"; }
+      font-family: "Lato", sans-serif; }
 
 /* SECCION DE DESCRIPCIÓN*/
 .service__ctn {
@@ -362,13 +368,13 @@ body {
   margin-right: 100px;
   padding: 30px; }
   .service__ctn__title {
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", cursive;
     font-size: 2.3em;
     text-decoration: overline;
     text-decoration-color: #6d6d6d;
     color: black; }
   .service__ctn__p {
-    font-family: "Lato Black";
+    font-family: "Lato", sans-serif;
     font-size: 1.2em;
     font-style: normal;
     color: #5d5d5d; }
@@ -380,7 +386,9 @@ body {
   grid-template-rows: 50%, 50%;
   justify-content: space-between;
   grid-gap: 2rem;
-  padding: 3rem; }
+  padding: 3rem;
+  margin-left: 100px;
+  margin-right: 100px; }
 
 .skills__art {
   display: grid;
@@ -391,14 +399,14 @@ body {
     align-self: center;
     border-image: 13px; }
   .skills__art__h {
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     color: #474747;
     text-align: center;
     align-self: center;
     padding: 1rem; }
   .skills__art__p {
-    font-family: "Lato Black";
+    font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
     color: #909090;
     text-align: center; }
@@ -424,13 +432,13 @@ body {
   margin-bottom: 50px;
   padding: 30px; }
   .customers__section__title {
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", cursive;
     font-size: 2.3em;
     text-decoration: overline;
     text-decoration-color: #6b6b6b;
     color: black; }
   .customers__section__p {
-    font-family: "Lato Black";
+    font-family: "Lato", sans-serif;
     font-size: 1.2em;
     font-style: normal;
     color: #5d5d5d;
@@ -449,7 +457,7 @@ body {
   justify-items: center;
   grid-template-rows: 30px 300px 1fr; }
   .ivan__div__h {
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue', cursive;
     font-size: 1.6em;
     color: #474747;
     text-align: center;
@@ -457,7 +465,7 @@ body {
     margin: 0;
     padding: 0%; }
   .ivan__div__p {
-    font-family: "Lato Black";
+    font-family: 'Lato', sans-serif;
     font-size: 1em;
     color: #909090;
     text-align: center; }
@@ -471,7 +479,7 @@ body {
   justify-items: center;
   grid-template-rows: 30px 300px 1fr; }
   .sofia__div__h {
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue', cursive;
     font-size: 1.6em;
     color: #474747;
     text-align: center;
@@ -479,7 +487,7 @@ body {
     margin: 0;
     padding: 0%; }
   .sofia__div__p {
-    font-family: "Lato Black";
+    font-family: 'Lato', sans-serif;
     font-size: 1em;
     color: #909090;
     text-align: center; }
@@ -493,7 +501,7 @@ body {
   justify-items: center;
   grid-template-rows: 30px 300px 1fr; }
   .bianca__div__h {
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue', cursive;
     font-size: 1.6em;
     color: #474747;
     text-align: center;
@@ -501,7 +509,7 @@ body {
     margin: 0;
     padding: 0%; }
   .bianca__div__p {
-    font-family: "Lato Black";
+    font-family: 'Lato', sans-serif;
     font-size: 1em;
     color: #909090;
     text-align: center; }
@@ -511,40 +519,40 @@ body {
 
 /* SERVICIOS PAGE */
 .container-service-page h2 {
-  font-family: "Bebas Neue";
+  font-family: 'Bebas Neue', cursive;
   font-size: 2.5em; }
 
 .container-service-page p {
-  font-family: "Lato Black";
+  font-family: 'Lato', sans-serif;
   font-size: 1.3em;
   font-style: normal;
   color: #5d5d5d; }
 
 .textCian {
   color: #4d8fc5;
-  font-family: "Lato Black"; }
+  font-family: 'Lato', sans-serif; }
 
 .textMagent {
   color: #e46060;
-  font-family: "Lato Black"; }
+  font-family: 'Lato', sans-serif; }
 
 .first-cnt-sct h2 {
-  font-family: "Bebas Neue";
+  font-family: 'Bebas Neue', cursive;
   font-size: 2.1em;
   color: #474747; }
 
 .first-cnt-sct p {
-  font-family: "Lato Black";
+  font-family: 'Lato', sans-serif;
   font-size: 1em;
   color: #909090; }
 
 .ctn-text-link h2 {
-  font-family: "Bebas Neue";
+  font-family: 'Bebas Neue', cursive;
   font-size: 2.1em;
   color: #474747; }
 
 .ctn-text-link p a {
-  font-family: "Lato Black";
+  font-family: 'Lato', sans-serif;
   text-decoration: none;
   font-size: 2em;
   color: #fa9f42;

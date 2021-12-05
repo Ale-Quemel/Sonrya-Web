@@ -37,6 +37,8 @@
         text-align: center;
         align-items: space-evenly;
         padding: 3.5rem;
+        margin-left: 100px;
+        margin-right: 100px;
     }
 
     &__h {
@@ -59,7 +61,9 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
     padding: 3rem;
-    background-color: $bg-color-ctn-aleyro
+    background-color: $bg-color-ctn-aleyro;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .div__ro {
@@ -98,6 +102,8 @@
 .brujulas__ctn {
     background-color: $bg-color-light-body;
     padding-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .brujula__title {
