@@ -9,10 +9,12 @@
     flex-wrap: wrap;
     text-align: center;
     align-items: space-evenly;
-    padding: 3.5rem;
+    padding: 2%;
 
     &__h {
-        @include principal__title
+        @include principal__title;
+        font-size: 80px;
+
     }
 
     &__p {

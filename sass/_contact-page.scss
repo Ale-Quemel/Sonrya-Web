@@ -2,16 +2,7 @@
 
 .main__contact {
     margin-top: 130px;
-}
-
-.ctn__form {
-    background-color: $bg-color-light-body;
-}
-
-.formulario {
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 20px;
+    
 }
 
 .cabecera__ctn {
@@ -20,11 +11,13 @@
     flex-wrap: wrap;
     text-align: center;
     align-items: space-evenly;
-    padding: 3.5rem;
+    padding: 2%;
 }
 
 .cabecera__ctn__div1__h {
-    @include principal__title
+    @include principal__title;
+    font-size: 80px;
+
 }
 
 .cabecera__ctn__div2 {
@@ -37,3 +30,20 @@
     }
 }
 
+.ctn__form {
+    background-color: $bg-color-light-body;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.formulario {
+    padding: 30px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .ctn__form {
+        margin:auto
+    }
+}

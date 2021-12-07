@@ -9,14 +9,20 @@
 @import 'studio-page';
 @import 'contact-page';
 @import 'proyect-page';
+@import 'navBar';
 
 
 body {
     background-color: rgb(228, 228, 228);
     margin: 0%;
+    box-sizing: border-box;
 }
 
 /* BARRA DE NAVEGACIÓN */
+
+.navbar {
+    display: none;
+}
 
 .nav1 {
     &__logo {
@@ -76,7 +82,7 @@ body {
         font-size: 80px;
         letter-spacing: 3px;
         text-align: center;
-        padding: 0%;
+        padding: 2%;
         margin-bottom: 10px;
         text-align: center;
     }
@@ -309,9 +315,20 @@ body {
 
 /* SERVICIOS PAGE */
 
+.main__div__service {
+    margin-top: 130px;
+    
+}
+
 .container-service-page h2 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 2.5em;
+    font-size: 60px;
+    
+    
+}
+
+.container-service-page {
+    padding: 2%;
 }
 
 .container-service-page p {
@@ -431,5 +448,20 @@ body {
         justify-content: center;
         margin: auto;
     }
+
+    
 }
+
+
+@media only screen and (max-width: 600px) {
+    header .nav1 {
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+    }
+}
+
+
 /* FIN (Por ahora) */

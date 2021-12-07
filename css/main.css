@@ -190,25 +190,18 @@
 .main__contact {
   margin-top: 130px; }
 
-.ctn__form {
-  background-color: #f3f3f3; }
-
-.formulario {
-  margin-left: 200px;
-  margin-right: 200px;
-  padding: 20px; }
-
 .cabecera__ctn {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
   align-items: space-evenly;
-  padding: 3.5rem; }
+  padding: 2%; }
 
 .cabecera__ctn__div1__h {
   font-family: "Bebas Neue", cursive;
-  font-size: 3em; }
+  font-size: 3em;
+  font-size: 80px; }
 
 .cabecera__ctn__div2__h {
   font-family: "Bebas Neue", cursive;
@@ -222,6 +215,18 @@
   color: #909090;
   padding: 1rem; }
 
+.ctn__form {
+  background-color: #f3f3f3;
+  margin-left: 100px;
+  margin-right: 100px; }
+
+.formulario {
+  padding: 30px; }
+
+@media only screen and (max-width: 600px) {
+  .ctn__form {
+    margin: auto; } }
+
 .main__proyect {
   margin-top: 130px; }
 
@@ -231,10 +236,11 @@
   flex-wrap: wrap;
   text-align: center;
   align-items: space-evenly;
-  padding: 3.5rem; }
+  padding: 2%; }
   .proyect__header__h {
     font-family: "Bebas Neue", cursive;
-    font-size: 3em; }
+    font-size: 3em;
+    font-size: 80px; }
   .proyect__header__p {
     font-family: "Lato", sans-serif;
     font-size: 1.5em;
@@ -280,11 +286,22 @@
     justify-content: center;
     margin: auto; } }
 
+/* BARRA DE NAVEGACIÓN */
+.navbar a {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+  letter-spacing: 2.5px;
+  margin-left: 1rem; }
+
 body {
   background-color: #e4e4e4;
-  margin: 0%; }
+  margin: 0%;
+  box-sizing: border-box; }
 
 /* BARRA DE NAVEGACIÓN */
+.navbar {
+  display: none; }
+
 .nav1__logo {
   display: inline-block;
   vertical-align: middle; }
@@ -327,7 +344,7 @@ body {
     font-size: 80px;
     letter-spacing: 3px;
     text-align: center;
-    padding: 0%;
+    padding: 2%;
     margin-bottom: 10px;
     text-align: center; }
   .main__div__subtitle {
@@ -534,9 +551,15 @@ body {
     align-self: center; }
 
 /* SERVICIOS PAGE */
+.main__div__service {
+  margin-top: 130px; }
+
 .container-service-page h2 {
   font-family: 'Bebas Neue', cursive;
-  font-size: 2.5em; }
+  font-size: 60px; }
+
+.container-service-page {
+  padding: 2%; }
 
 .container-service-page p {
   font-family: 'Lato', sans-serif;
@@ -627,5 +650,11 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: auto; } }
+
+@media only screen and (max-width: 600px) {
+  header .nav1 {
+    display: none; }
+  .navbar {
+    display: block; } }
 
 /* FIN (Por ahora) */
